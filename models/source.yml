@@ -1,6 +1,6 @@
 sources:
   - name: ANALYTICS
-    schema: DBT_SBHOWMICK
+    schema: DGLOBALMART
     tables:
       - name: ORDERS
         identifier: RAW_ORDERS
