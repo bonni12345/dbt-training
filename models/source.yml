@@ -3,5 +3,6 @@ sources:
     schema: DBT_SBHOWMICK
     tables:
       - name: ORDERS
-       identifier: RAW_ORDERS
+        identifier: RAW_ORDERS
+     
       
