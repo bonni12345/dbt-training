@@ -1,0 +1,7 @@
+sources:
+  - name: ANALYTICS
+    schema: DBT_SBHOWMICK
+    tables:
+      - name: ORDERS
+       identifier: RAW_ORDERS
+      
