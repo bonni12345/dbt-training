@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ANALYTICS
+    database: ANALYTICS
+    schema: DBT_SBHOWMICK
+    tables:
+      - name: customers
+      - name: orders
