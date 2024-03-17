@@ -3,4 +3,4 @@ select
     first_name,
     last_name
 
-from ANALYTICS.DBT_SBHOWMICK.customers
+from {{ source('DBT_SBHOWMICK', 'customers') }}

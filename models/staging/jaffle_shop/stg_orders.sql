@@ -4,4 +4,4 @@ select
     order_date,
     status
 
-from ANALYTICS.DBT_SBHOWMICK.orders
+from {{ source('DBT_SBHOWMICK', 'orders') }}
