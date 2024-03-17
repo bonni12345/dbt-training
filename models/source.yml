@@ -1,9 +1,0 @@
-sources:
- - name: raw
-    schema: GLOBALMART
- tables:
- - name: listings
-   identifier: raw_listings   
-
-
-      
